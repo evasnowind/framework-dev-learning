@@ -1,4 +1,4 @@
-package com.prayerlaputa.connectionpool;
+package com.prayerlaputa.connectionpool.common;
 
 /**
  * @author chenglong.yu

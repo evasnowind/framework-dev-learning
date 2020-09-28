@@ -1,4 +1,4 @@
-package com.prayerlaputa.connectionpool;
+package com.prayerlaputa.connectionpool.common;
 
 import org.apache.commons.pool2.BasePooledObjectFactory;
 import org.apache.commons.pool2.PooledObject;

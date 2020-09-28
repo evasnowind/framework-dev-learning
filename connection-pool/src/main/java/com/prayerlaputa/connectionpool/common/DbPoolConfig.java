@@ -1,4 +1,4 @@
-package com.prayerlaputa.connectionpool;
+package com.prayerlaputa.connectionpool.common;
 
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 

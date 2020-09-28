@@ -1,4 +1,4 @@
-package com.prayerlaputa.connectionpool;
+package com.prayerlaputa.connectionpool.common;
 
 import java.sql.Connection;
 import java.sql.Statement;
