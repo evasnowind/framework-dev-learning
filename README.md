@@ -7,9 +7,9 @@
 | 技术 | 地址 | 应用场景 | 状态 | 其他 |
 | - | - | - | - | - |
 |动态代理 | dynamic-proxy |  | doing |  |
-|连接池 | connection-pool |  | done | github上一个自定义实现的连接池：https://github.com/aloys-jun/connect-pool |
-| Java JUC | - |  | to do |  |
-| Java CAS | - |  | to do |  |
+|连接池 | connection-pool |  | done | github上一个自定义实现的连接池：<br/>https://github.com/aloys-jun/connect-pool |
+| Java JUC | https://github.com/evasnowind/JUC-learning |  | done |  |
+| Java CAS | - |  | done |  |
 | Java SPI | | Dubbo | to do |  |
 | Spring高级应用 | spring-senior |  | done |  |
 | Spring AOP | spring-aop |  | done |  |

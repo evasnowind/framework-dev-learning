@@ -13,6 +13,7 @@
     <module>spring-aop</module>
     <module>spring-senior</module>
     <module>dynamic-proxy</module>
+    <module>java-cas</module>
 </modules>
 
 
