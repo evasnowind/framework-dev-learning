@@ -15,6 +15,7 @@
     <module>dynamic-proxy</module>
     <module>java-cas</module>
     <module>java-classloader</module>
+    <module>java-spi</module>
 </modules>
 
 
