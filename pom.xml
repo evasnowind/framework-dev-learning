@@ -18,6 +18,7 @@
     <module>java-spi</module>
     <module>spring-import</module>
     <module>netty-httpserver</module>
+    <module>java-zero-copy</module>
 </modules>
 
 
