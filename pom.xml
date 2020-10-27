@@ -11,12 +11,13 @@
 <modules>
     <module>connection-pool</module>
     <module>spring-aop</module>
-    <module>spring-senior</module>
+    <module>spring-event</module>
     <module>dynamic-proxy</module>
     <module>java-cas</module>
     <module>java-classloader</module>
     <module>java-spi</module>
     <module>spring-import</module>
+    <module>netty-httpserver</module>
 </modules>
 
 

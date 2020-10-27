@@ -17,11 +17,11 @@ public class EventApplication {
 
     public static void main(String[] args) {
 
-        log.info("RecruitApplication 服务开始启动...");
+        log.info("EventApplication 服务开始启动...");
         ApplicationContext context = SpringApplication.run(EventApplication.class, args);
         NotifyEvent event = new NotifyEvent(context, "abc@qq.com", "This is the content");
         context.publishEvent(event);
-        log.info("RecruitApplication 服务启动完成.");
+        log.info("EventApplication 服务启动完成.");
     }
 
 }

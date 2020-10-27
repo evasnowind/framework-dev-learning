@@ -16,6 +16,7 @@
 | Spring AOP | spring-aop |  | done |  |
 | Spring Factories | |spring boot starter||  |
 | spring-boot-start | |  |  |  |
+| netty | netty-httpserver | 高性能网络IO，<br/>如RocketMQ |  |  |
 
 
 
