@@ -6,9 +6,8 @@
 
 | 技术 | module/地址 | 应用场景 | 状态 | 其他 |
 | - | - | - | - | - |
-|动态代理 | dynamic-proxy | RPC<br/>MQ | doing |  |
+|动态代理 | dynamic-proxy | RPC<br/>MQ | done |  |
 |字节码编程<br/>java agent,<br/>instrument,<br/>byte buddy | bytecode-program<br/>java-agent-and-instrument<br/>java-agent-and-instrument-test<br/>[一个简单starter实现](https://github.com/evasnowind/distributed-dev-learning/tree/master/monitor-by-java-agent) | 非侵入式应用监控<br/>，应用埋点，<br/>方法增强，<br/>热替换等 | done | 应用监控，如skywalking, <br/>pinpoint, zipkin等；<br/>框架开发，如dubbo、spring等；<br/>其他，如arthas, jrebel等 |
-| |  |  |  | |
 |连接池 | connection-pool | Druid等 | done | github上一个自定义实现的连接池：<br/>https://github.com/aloys-jun/connect-pool |
 | Java JUC | https://github.com/evasnowind/JUC-learning |  | done |  |
 | Java CAS | java-cas |  | done |  |
