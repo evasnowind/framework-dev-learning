@@ -9,30 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>bytecode-program</artifactId>
-
-    <properties> <!-- Build args -->
-        <argline>-Xms512m -Xmx512m</argline>
-        <skip_maven_deploy>false</skip_maven_deploy>
-        <updateReleaseInfo>true</updateReleaseInfo>
-        <maven.test.skip>true</maven.test.skip> <!-- 自定义MANIFEST.MF -->
-<!--        <maven.configuration.manifestFile>src/main/resources/META-INF/MANIFEST.MF</maven.configuration.manifestFile>-->
-    </properties>
-
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/net.bytebuddy/byte-buddy -->
-        <dependency>
-            <groupId>net.bytebuddy</groupId>
-            <artifactId>byte-buddy</artifactId>
-            <version>1.10.17</version>
-        </dependency>
-
-        <dependency>
-            <groupId>net.bytebuddy</groupId>
-            <artifactId>byte-buddy-agent</artifactId>
-            <version>1.10.17</version>
-        </dependency>
-    </dependencies>
+    <artifactId>java-agent-and-instrument</artifactId>
 
     <build>
         <plugins>
@@ -46,18 +23,35 @@
                             <addClasspath>true</addClasspath>
                         </manifest>
                         <manifestEntries>
-                            <Premain-Class>
-                                com.prayerlaputa.bytebuddyaop.agent.track.MyTrackAgent
+                           <!--
+                           <Premain-Class>
+                                com.prayerlaputa.beforeagent.TestAgent
                             </Premain-Class>
-<!--
+                            -->
+
                             <Agent-Class>
                                 com.prayerlaputa.agent.TestAgent2
                             </Agent-Class>
--->
+
+                    <!--
+                            <Premain-Class>
+                                com.prayerlaputa.instrument.demo1.Premain
+                            </Premain-Class>
+                            -->
                         </manifestEntries>
                     </archive>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+    <dependencies>
+
+        <dependency>
+            <groupId>com.sun</groupId>
+            <artifactId>tools</artifactId>
+            <version>1.8.0</version>
+            <scope>system</scope>
+            <systemPath>C:/Program Files/Java/jdk1.8.0_161/lib/tools.jar</systemPath>
+        </dependency>
+    </dependencies>
 </project>

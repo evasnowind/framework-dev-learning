@@ -22,6 +22,8 @@
     <module>spring-conditional-annotation</module>
     <module>bytecode-program</module>
     <module>tiny-http-server-spring-boot-starter</module>
+    <module>java-agent-and-instrument</module>
+    <module>java-agent-and-instrument-test</module>
 </modules>
 
 
