@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--<bean id="user" class="com.prayerlaputa.ioc.User"/>-->
+
+    <!--用静态工厂创建-->
+    <!--<bean id="_user2" scope="prototype" class="com.prayerlaputa.ioc.BeanFactory" factory-method="createUser2"/>-->
+
+    <!--用实例工厂创建-->
+    <!--<bean id="bean2Factory" class="com.prayerlaputa.ioc.Bean2Factory" />-->
+    <!--<bean id="user2" factory-bean="bean2Factory" factory-method="getBean"/>-->
+
+    <!--id 不能使用特殊符号 #, _ 可以使用; name属性可以，是以前的版本中存在的，历史遗留问题，这里不推荐使用了-->
+
+    <!--属性注入-->
+    <!--<bean id="people" class="com.prayerlaputa.attr.People">-->
+    <!--<constructor-arg name="name" value="小明"/>-->
+    <!--</bean>-->
+    <!--<bean id="book" class="com.prayerlaputa.attr.Book">-->
+    <!--<property name="bookName" value="三国"/>-->
+    <!--</bean>-->
+
+    <!--对象注入-->
+    <bean id="userDao" class="com.prayerlaputa.assemblebean.xmlconfig.UserDao">
+        <property name="curName" value="myXmlUserDAO"/>
+    </bean>
+    <bean id="userService" class="com.prayerlaputa.assemblebean.xmlconfig.UserService">
+        <property name="userDao" ref="userDao"/>
+    </bean>
+
+    <!-- P名称空间注入 -->
+    <!--<bean id="person" class="com.prayerlaputa.attr.Person" p:pName="呵呵哒"/>-->
+
+
+    <bean id="collectionBean" class="com.prayerlaputa.assemblebean.xmlconfig.CollectionBean">
+        <property name="arrs">
+            <array>
+                <value>小红</value>
+                <value>小白</value>
+                <value>小绿</value>
+            </array>
+        </property>
+
+        <property name="list">
+            <list>
+                <value>大白</value>
+                <value>大春</value>
+                <value>大花</value>
+            </list>
+        </property>
+
+        <property name="map">
+            <map>
+                <entry key="001" value="小白" />
+                <entry key="002" value="小刘" />
+                <entry key="003" value="小东" />
+            </map>
+        </property>
+
+        <property name="properties">
+            <props>
+                <prop key="driveClass">com.mysql.jdbc.Driver</prop>
+                <prop key="userName">root</prop>
+                <prop key="userPwd">root</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
