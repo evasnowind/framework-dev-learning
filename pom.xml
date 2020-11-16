@@ -21,6 +21,7 @@
     <module>java-zero-copy</module>
     <module>spring-conditional-annotation</module>
     <module>bytecode-program</module>
+    <module>tiny-http-server-spring-boot-starter</module>
 </modules>
 
 
