@@ -1,7 +1,7 @@
 package com.prayerlaputa.dynamicproxy.compareproxydemo;
 
-import org.springframework.cglib.proxy.Enhancer;
-import org.springframework.cglib.proxy.MethodInterceptor;
+import net.sf.cglib.proxy.Enhancer;
+import net.sf.cglib.proxy.MethodInterceptor;
 
 import java.lang.reflect.Proxy;
 
