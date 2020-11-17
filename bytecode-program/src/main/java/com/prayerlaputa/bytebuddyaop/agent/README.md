@@ -57,9 +57,12 @@ Can-Redefine-Classes: true
 
 ## 一个完整的非侵入全链路追踪  
 
-结合上述内容，可以实现一个功能更强大的链路追踪程序，参见
+结合上述内容，可以实现一个功能更强大的链路追踪程序，参见 https://github.com/evasnowind/distributed-dev-learning/tree/master/monitor-by-java-agent
 
 ## 参考资料   
 - https://blog.csdn.net/wanxiaoderen/article/details/107367250
-- https://blog.frognew.com/2016/01/understand-distributed-tracing.html#trace%E5%92%8Cspan
+- [Java Agent简介](https://www.jianshu.com/p/63c328ca208d)
+- [基于Java Instrument的Agent实现](https://www.jianshu.com/p/b72f66da679f)
+- https://bugstack.cn/itstack/itstack-demo-bytecode.html 
+- https://blog.frognew.com/2016/01/understand-distributed-tracing.html
 
