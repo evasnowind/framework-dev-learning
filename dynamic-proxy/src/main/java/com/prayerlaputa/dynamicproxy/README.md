@@ -34,6 +34,8 @@ CGLIB动态代理特点：
 JDK与CGLIB动态代理的性能比较：
 网上据说新版本JDK动态代理性能有提升，这个得实际测试一下，比如JMH等，排除预热等干扰因素。
 
+可以参考这个 https://blog.csdn.net/xlgen157387/article/details/82497594
+
 ## 参考资料  
 - https://blog.csdn.net/luanlouis/article/details/24589193
 - https://blog.csdn.net/wangzhihao1994/article/details/80913210
