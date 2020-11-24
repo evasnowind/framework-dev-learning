@@ -25,6 +25,7 @@
     <module>java-agent-and-instrument</module>
     <module>java-agent-and-instrument-test</module>
     <module>spring-aop-2-customzed-cache-annotation</module>
+    <module>spring-lifecycle</module>
 </modules>
 
 
