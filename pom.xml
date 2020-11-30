@@ -27,6 +27,7 @@
     <module>spring-aop-2-customzed-cache-annotation</module>
     <module>spring-lifecycle</module>
     <module>mysql-performance-test</module>
+    <module>mysql-batch-insert-optimization</module>
 </modules>
 
 
