@@ -28,6 +28,7 @@
     <module>spring-lifecycle</module>
     <module>mysql-performance-test</module>
     <module>mysql-batch-insert-optimization</module>
+    <module>dynamic-datasource</module>
 </modules>
 
 

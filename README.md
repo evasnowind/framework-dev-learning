@@ -19,6 +19,7 @@
 | Spring Factories,<br/>原理与使用，<br/>Spring Import,<br/>Spring Condition | spring-conditional-annotation<br/>spring-import<br/> |框架开发|done| 利用spring开发框架，<br/>第三方客户端的开发，<br/>解决客户端的集成问题 |
 | spring-boot-starter<br/>实现原理                             | tiny-http-server-spring-boot-starter<br/>[一个简单starter实现](https://github.com/evasnowind/tiny-school-spring-boot-starter) | 自定义<br/>spring boot starter | done | 开发一个框架时，自定义实现<br/>一个starter，便于作为第三方<br/>库，将客户端集成其他应用中 |
 | netty | netty-httpserver | 高性能网络IO，<br/>如RocketMQ | done | rocketmq, dubbo, seata<br/>等。kafka没用netty，<br/>但也用了NIO。 |
+| 动态数据源切换,<br/>读写分离 | dynamic-datasource | 数据库中间件，<br/>读写分离，如<br/>MyCAT,<br/>shardingsphere-jdbc | done | 其他参考资料：[动态数据源切换](https://github.com/baomidou/dynamic-datasource-spring-boot-starter)<br/>[集成多数据源](https://github.com/baomidou/dynamic-datasource-spring-boot-starter) |
 
 
 
