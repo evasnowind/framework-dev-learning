@@ -135,6 +135,7 @@ public class TestBatchInsert {
 
         System.out.println("--------A组测试: JDBC Statement Batch插入"+ total + "条(每批插入："+ batch +")，耗时：" + costTime + "ms ----------");
         System.out.println("--------A组测试: JDBC Statement Batch插入 结束！----------");
+        System.out.println();
 
         cleanup();
     }
@@ -180,6 +181,7 @@ public class TestBatchInsert {
 
         System.out.println("--------B组测试: JDBC PrepareStatement Batch插入"+ total + "条(每批插入："+ batch +")，耗时：" + costTime + "ms ----------");
         System.out.println("--------B组测试: JDBC PrepareStatement Batch插入 结束！----------");
+        System.out.println();
 
         cleanup();
     }
@@ -201,6 +203,7 @@ public class TestBatchInsert {
 
         System.out.println("--------C组测试: JDBC PrepareStatement Batch插入(重写优化)"+ total + "条(每批插入："+ batch +")，耗时：" + costTime + "ms ----------");
         System.out.println("--------C组测试: JDBC PrepareStatement Batch插入(重写优化) 结束！----------");
+        System.out.println();
 
         cleanup();
     }
