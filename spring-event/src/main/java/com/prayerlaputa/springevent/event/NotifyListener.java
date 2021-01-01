@@ -1,4 +1,4 @@
-package com.prayerlaputa.springsenior.event;
+package com.prayerlaputa.springevent.event;
 
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;

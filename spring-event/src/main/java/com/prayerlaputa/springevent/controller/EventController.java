@@ -1,6 +1,6 @@
-package com.prayerlaputa.springsenior.controller;
+package com.prayerlaputa.springevent.controller;
 
-import com.prayerlaputa.springsenior.event.NotifyEvent;
+import com.prayerlaputa.springevent.event.NotifyEvent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.web.bind.annotation.GetMapping;

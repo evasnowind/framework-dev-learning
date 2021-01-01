@@ -1,4 +1,4 @@
-package com.prayerlaputa.springsenior.event;
+package com.prayerlaputa.springevent.event;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;

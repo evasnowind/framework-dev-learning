@@ -1,7 +1,7 @@
 package com.prayerlaputa.springsenior.event;
 
-import com.prayerlaputa.springsenior.EventApplication;
-import javafx.application.Application;
+import com.prayerlaputa.springevent.EventApplication;
+import com.prayerlaputa.springevent.event.NotifyEvent;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
