@@ -29,6 +29,7 @@
     <module>mysql-performance-test</module>
     <module>mysql-batch-insert-optimization</module>
     <module>dynamic-datasource</module>
+    <module>reactor-programming</module>
 </modules>
 
 
