@@ -22,4 +22,9 @@ Here is the list:
 | dynamic datasource<br/>separate read <br/>write | dynamic-datasource | db midware，<br/>separate read write，<br/>MyCAT,<br/>shardingsphere-jdbc | done | other ：[dynamic datasource](https://github.com/baomidou/dynamic-datasource-spring-boot-starter) |
 
 
-01012021/6425903
+
+## Support  
+
+Supported by [Jetbrains IDEA](https://www.jetbrains.com/?from=IDEA)
+
+![](docs/images/jetbrains.png)
