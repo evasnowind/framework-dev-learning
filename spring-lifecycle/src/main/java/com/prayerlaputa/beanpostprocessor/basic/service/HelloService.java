@@ -1,4 +1,4 @@
-package com.prayerlaputa.beanpostprocessor.service;
+package com.prayerlaputa.beanpostprocessor.basic.service;
 
 /**
  * @author chenglong.yu

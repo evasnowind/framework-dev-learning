@@ -1,6 +1,6 @@
-package com.prayerlaputa.beanpostprocessor.processor;
+package com.prayerlaputa.beanpostprocessor.basic.processor;
 
-import com.prayerlaputa.beanpostprocessor.annotation.RoutingInjected;
+import com.prayerlaputa.beanpostprocessor.basic.annotation.RoutingInjected;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanCreationException;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.prayerlaputa.beanpostprocessor.annotation;
+package com.prayerlaputa.beanpostprocessor.basic.annotation;
 
 import org.springframework.stereotype.Component;
 

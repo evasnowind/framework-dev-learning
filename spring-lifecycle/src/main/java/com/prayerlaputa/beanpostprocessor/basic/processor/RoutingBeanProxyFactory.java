@@ -1,4 +1,4 @@
-package com.prayerlaputa.beanpostprocessor.processor;
+package com.prayerlaputa.beanpostprocessor.basic.processor;
 
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;

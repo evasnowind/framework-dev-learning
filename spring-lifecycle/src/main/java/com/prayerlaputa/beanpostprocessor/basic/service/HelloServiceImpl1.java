@@ -1,4 +1,4 @@
-package com.prayerlaputa.beanpostprocessor.service;
+package com.prayerlaputa.beanpostprocessor.basic.service;
 
 import org.springframework.stereotype.Service;
 
