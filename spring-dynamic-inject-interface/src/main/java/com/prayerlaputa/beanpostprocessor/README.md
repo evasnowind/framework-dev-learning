@@ -1,7 +1,7 @@
 ## 案例
 - basic
     - 使用BeanPostProcessor实现一个接口多个实现的情况下，根据注解配置所注入的对象实例
-- 高级：参见spring-dynamic-inject-interface模块
+- senior包
     - 模拟MyBatis
 
 ## spring 生命周期  

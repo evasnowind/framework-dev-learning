@@ -30,6 +30,7 @@
     <module>mysql-batch-insert-optimization</module>
     <module>dynamic-datasource</module>
     <module>reactor-programming</module>
+    <module>spring-dynamic-inject-interface</module>
 </modules>
 
 

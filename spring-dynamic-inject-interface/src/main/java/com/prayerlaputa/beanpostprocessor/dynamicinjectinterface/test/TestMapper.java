@@ -1,6 +1,6 @@
-package com.prayerlaputa.beanpostprocessor.senior.test;
+package com.prayerlaputa.beanpostprocessor.dynamicinjectinterface.test;
 
-import com.prayerlaputa.beanpostprocessor.senior.test.dao.UserMapper;
+import com.prayerlaputa.beanpostprocessor.dynamicinjectinterface.test.dao.UserMapper;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  */
 public class TestMapper {
 
-    public static final String MAPPER_PACKAGE_INFO = "com.prayerlaputa.beanpostprocessor.senior.test.dao";
+    public static final String MAPPER_PACKAGE_INFO = "com.prayerlaputa.beanpostprocessor.dynamicinjectinterface.test.dao";
 
     public static void main(String[] args) {
         AnnotationConfigApplicationContext acApplicationContext = new AnnotationConfigApplicationContext(MAPPER_PACKAGE_INFO);

@@ -1,8 +1,8 @@
-package com.prayerlaputa.beanpostprocessor.senior.test.dao;
+package com.prayerlaputa.beanpostprocessor.dynamicinjectinterface.test.dao;
 
-import com.prayerlaputa.beanpostprocessor.senior.DefaultClassRegistryBeanFactory;
-import com.prayerlaputa.beanpostprocessor.senior.MapperManagerFactoryBean;
-import com.prayerlaputa.beanpostprocessor.senior.test.TestMapper;
+import com.prayerlaputa.beanpostprocessor.dynamicinjectinterface.DefaultClassRegistryBeanFactory;
+import com.prayerlaputa.beanpostprocessor.dynamicinjectinterface.MapperManagerFactoryBean;
+import com.prayerlaputa.beanpostprocessor.dynamicinjectinterface.test.TestMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

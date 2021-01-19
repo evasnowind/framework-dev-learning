@@ -1,4 +1,4 @@
-package com.prayerlaputa.beanpostprocessor.senior;
+package com.prayerlaputa.beanpostprocessor.dynamicinjectinterface;
 
 import org.springframework.cglib.proxy.InvocationHandler;
 

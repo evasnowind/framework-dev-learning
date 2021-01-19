@@ -15,11 +15,15 @@ Here is the list:
 | Java Zero Copy | java-zero-copy | high performance <br/>IO，like kafka | done | |
 | Dubbo SPI | | Dubbo | to do | |
 | Spring event | spring-event |  | done | event notify |
+| Spring lifecycle | spring-lifecycle<br/>spring-dynamic-inject-interface | mybatis(e.g <br/>implementation<br/>of mapper) | done |  |
 | Spring AOP | spring-aop |  | done |  |
 | Spring Factories,<br/>Spring Import,<br/>Spring Condition | spring-conditional-annotation<br/>spring-import<br/> |framework <br/>development|done| spring boot starter |
 | spring-boot-starter<br/>                             | tiny-http-server-spring-boot-starter<br/>[a simple starter](https://github.com/evasnowind/tiny-school-spring-boot-starter) | implement a  <br/>spring boot starter | done |  |
 | netty | netty-httpserver | network IO，<br/>eg: RocketMQ | done | rocketmq, dubbo, seata<br/> and so on. Kafka doesn't <br/>use netty，but use NIO。 |
 | dynamic datasource<br/>separate read <br/>write | dynamic-datasource | db midware，<br/>separate read write，<br/>MyCAT,<br/>shardingsphere-jdbc | done | other ：[dynamic datasource](https://github.com/baomidou/dynamic-datasource-spring-boot-starter) |
+| reactor <br/>programming | reactor-programming | webflux, <br/>Spring Cloud <br/>Gateway,<br/>soul | done |  |
+
+
 
 
 
@@ -27,4 +31,4 @@ Here is the list:
 
 Supported by [Jetbrains IDEA](https://www.jetbrains.com/?from=IDEA)
 
-![](docs/images/jetbrains.png)
+<img src="docs/images/jetbrains.png" style="zoom: 25%;" />

@@ -1,4 +1,4 @@
-package com.prayerlaputa.beanpostprocessor.senior;
+package com.prayerlaputa.beanpostprocessor.dynamicinjectinterface;
 
 /**
  * @author chenglong.yu
